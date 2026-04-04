@@ -16,70 +16,68 @@ document.addEventListener('DOMContentLoaded', () => {
     handleNavbarScroll();
 
     // ============================================
-    // MOBILE NAVIGATION
+    // MOBILE NAVIGATION (slide-in drawer)
     // ============================================
     const navToggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
+    const navMobile = document.querySelector('.nav-mobile');
+    const navOverlay = document.querySelector('.nav-mobile__overlay');
 
     const closeNav = () => {
-        if (!navToggle || !navLinks) return;
+        if (!navToggle || !navMobile) return;
         navToggle.classList.remove('active');
-        navLinks.classList.remove('active');
+        navMobile.classList.remove('open');
+        if (navOverlay) navOverlay.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
     };
 
-    if (navToggle && navLinks) {
+    if (navToggle && navMobile) {
         navToggle.addEventListener('click', () => {
-            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-            navToggle.setAttribute('aria-expanded', !isExpanded);
-            navToggle.classList.toggle('active');
-            navLinks.classList.toggle('active');
-            document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
-        });
-
-        // Close nav when clicking a non-dropdown link
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                if (link.parentElement.classList.contains('nav-dropdown') && window.innerWidth <= 768) return;
+            const isOpen = navMobile.classList.contains('open');
+            if (isOpen) {
                 closeNav();
-            });
+            } else {
+                navToggle.classList.add('active');
+                navMobile.classList.add('open');
+                if (navOverlay) navOverlay.classList.add('open');
+                navToggle.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
+            }
         });
 
-        // Close nav on Escape key
+        // Close on overlay click
+        if (navOverlay) {
+            navOverlay.addEventListener('click', closeNav);
+        }
+
+        // Close on Escape key
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && navLinks.classList.contains('active')) closeNav();
+            if (e.key === 'Escape' && navMobile.classList.contains('open')) closeNav();
+        });
+
+        // Accordion toggles for sub-menus (Services, Areas)
+        navMobile.querySelectorAll('.nav-mobile__link').forEach(link => {
+            const sub = link.nextElementSibling;
+            if (sub && sub.classList.contains('nav-mobile__sub')) {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const isOpen = sub.classList.contains('open');
+
+                    // Close all subs first
+                    navMobile.querySelectorAll('.nav-mobile__sub').forEach(s => s.classList.remove('open'));
+
+                    if (!isOpen) {
+                        sub.classList.add('open');
+                    }
+                });
+            }
         });
     }
 
     // ============================================
-    // MOBILE DROPDOWN TOGGLES (Accordion-style)
+    // DESKTOP DROPDOWN TOGGLES
     // ============================================
     const dropdowns = document.querySelectorAll('.nav-dropdown');
-
-    dropdowns.forEach(dropdown => {
-        const toggle = dropdown.querySelector(':scope > a');
-        if (!toggle) return;
-
-        toggle.addEventListener('click', (e) => {
-            if (window.innerWidth <= 768) {
-                e.preventDefault();
-                const isOpen = dropdown.classList.contains('open');
-
-                // Close all dropdowns first (only one open at a time)
-                dropdowns.forEach(d => {
-                    d.classList.remove('open');
-                    const t = d.querySelector(':scope > a');
-                    if (t) t.setAttribute('aria-expanded', 'false');
-                });
-
-                if (!isOpen) {
-                    dropdown.classList.add('open');
-                    toggle.setAttribute('aria-expanded', 'true');
-                }
-            }
-        });
-    });
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', (e) => {
