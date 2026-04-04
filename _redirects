@@ -1,0 +1,38 @@
+# Arcadian Landscape -- Domain Migration Redirects
+# From legacy WordPress slugs to new static site pages
+# Deploy with Netlify -- these fire automatically on domain transfer
+
+/about-us/                                    /about.html              301
+/about-us                                     /about.html              301
+/san-diego-landscape-photos/                  /gallery.html            301
+/san-diego-landscape-photos                   /gallery.html            301
+/san-diego-landscape-design/                  /landscape-design.html   301
+/san-diego-landscape-design                   /landscape-design.html   301
+/contact-arcadian-landscape/                  /contact.html            301
+/contact-arcadian-landscape                   /contact.html            301
+/water-features-san-diego-design/             /water-features.html     301
+/water-features-san-diego-design              /water-features.html     301
+/san-diego-new-landscape-construction/        /new-construction.html   301
+/san-diego-new-landscape-construction         /new-construction.html   301
+/san-diego-patios-and-decks/                  /patios-decks.html       301
+/san-diego-patios-and-decks                   /patios-decks.html       301
+/san-diego-landscape-renovation/              /landscape-renovation.html 301
+/san-diego-landscape-renovation               /landscape-renovation.html 301
+/bbq-island-installation-san-diego/           /bbq-islands.html        301
+/bbq-island-installation-san-diego            /bbq-islands.html        301
+/san-diego-hardscape/                         /hardscape.html          301
+/san-diego-hardscape                          /hardscape.html          301
+/paver-installation-north-county-san-diego/   /pavers.html             301
+/paver-installation-north-county-san-diego    /pavers.html             301
+/san-diego-landscape-lighting/                /landscape-lighting.html 301
+/san-diego-landscape-lighting                 /landscape-lighting.html 301
+/san-diego-commercial-building-planting/      /commercial-planting.html 301
+/san-diego-commercial-building-planting       /commercial-planting.html 301
+/san-diego-landscape-irrigation/              /irrigation.html         301
+/san-diego-landscape-irrigation               /irrigation.html         301
+/artificial-grass-san-diego-installer/        /artificial-grass.html   301
+/artificial-grass-san-diego-installer         /artificial-grass.html   301
+/san-diego-landscape-tips/                    /landscape-tips.html     301
+/san-diego-landscape-tips                     /landscape-tips.html     301
+/videos/                                      /gallery.html            301
+/videos                                       /gallery.html            301
