@@ -1,38 +1,114 @@
 # Arcadian Landscape -- Domain Migration Redirects
 # From legacy WordPress slugs to new static site pages
-# Deploy with Netlify -- these fire automatically on domain transfer
 
-/about-us/                                    /about.html              301
-/about-us                                     /about.html              301
-/san-diego-landscape-photos/                  /gallery.html            301
-/san-diego-landscape-photos                   /gallery.html            301
-/san-diego-landscape-design/                  /landscape-design.html   301
-/san-diego-landscape-design                   /landscape-design.html   301
-/contact-arcadian-landscape/                  /contact.html            301
-/contact-arcadian-landscape                   /contact.html            301
-/water-features-san-diego-design/             /water-features.html     301
-/water-features-san-diego-design              /water-features.html     301
-/san-diego-new-landscape-construction/        /new-construction.html   301
-/san-diego-new-landscape-construction         /new-construction.html   301
-/san-diego-patios-and-decks/                  /patios-decks.html       301
-/san-diego-patios-and-decks                   /patios-decks.html       301
-/san-diego-landscape-renovation/              /landscape-renovation.html 301
-/san-diego-landscape-renovation               /landscape-renovation.html 301
-/bbq-island-installation-san-diego/           /bbq-islands.html        301
-/bbq-island-installation-san-diego            /bbq-islands.html        301
-/san-diego-hardscape/                         /hardscape.html          301
-/san-diego-hardscape                          /hardscape.html          301
-/paver-installation-north-county-san-diego/   /pavers.html             301
-/paver-installation-north-county-san-diego    /pavers.html             301
-/san-diego-landscape-lighting/                /landscape-lighting.html 301
-/san-diego-landscape-lighting                 /landscape-lighting.html 301
-/san-diego-commercial-building-planting/      /commercial-planting.html 301
-/san-diego-commercial-building-planting       /commercial-planting.html 301
-/san-diego-landscape-irrigation/              /irrigation.html         301
-/san-diego-landscape-irrigation               /irrigation.html         301
-/artificial-grass-san-diego-installer/        /artificial-grass.html   301
-/artificial-grass-san-diego-installer         /artificial-grass.html   301
-/san-diego-landscape-tips/                    /landscape-tips.html     301
-/san-diego-landscape-tips                     /landscape-tips.html     301
-/videos/                                      /gallery.html            301
-/videos                                       /gallery.html            301
+# === LEGACY WP URLS IN CURRENT PAGE-SITEMAP ===
+/about-us/                                    /about.html                  301
+/about-us                                     /about.html                  301
+/san-diego-landscape-photos/                  /gallery.html                301
+/san-diego-landscape-photos                   /gallery.html                301
+/san-diego-landscape-design/                  /landscape-design.html       301
+/san-diego-landscape-design                   /landscape-design.html       301
+/contact-arcadian-landscape/                  /contact.html                301
+/contact-arcadian-landscape                   /contact.html                301
+/water-features-san-diego-design/             /water-features.html         301
+/water-features-san-diego-design              /water-features.html         301
+/san-diego-new-landscape-construction/        /new-construction.html       301
+/san-diego-new-landscape-construction         /new-construction.html       301
+/san-diego-patios-and-decks/                  /patios-decks.html           301
+/san-diego-patios-and-decks                   /patios-decks.html           301
+/san-diego-landscape-renovation/              /landscape-renovation.html   301
+/san-diego-landscape-renovation               /landscape-renovation.html   301
+/bbq-island-installation-san-diego/           /bbq-islands.html            301
+/bbq-island-installation-san-diego            /bbq-islands.html            301
+/san-diego-hardscape/                         /hardscape.html              301
+/san-diego-hardscape                          /hardscape.html              301
+/paver-installation-north-county-san-diego/   /pavers.html                 301
+/paver-installation-north-county-san-diego    /pavers.html                 301
+/san-diego-landscape-lighting/                /landscape-lighting.html     301
+/san-diego-landscape-lighting                 /landscape-lighting.html     301
+/san-diego-commercial-building-planting/      /commercial-planting.html    301
+/san-diego-commercial-building-planting       /commercial-planting.html    301
+/san-diego-landscape-irrigation/              /irrigation.html             301
+/san-diego-landscape-irrigation               /irrigation.html             301
+/artificial-grass-san-diego-installer/        /artificial-grass.html       301
+/artificial-grass-san-diego-installer         /artificial-grass.html       301
+/san-diego-landscape-tips/                    /landscape-tips.html         301
+/san-diego-landscape-tips                     /landscape-tips.html         301
+/videos/                                      /gallery.html                301
+/videos                                       /gallery.html                301
+
+# === PREVIOUSLY MISSING (found in WP page-sitemap + SerpAPI index check) ===
+# 3 of these are currently indexed by Google -- would 404 at DNS flip without these rules
+/encinitas-irrigation-repair/                 /irrigation.html             301
+/encinitas-irrigation-repair                  /irrigation.html             301
+/san-diego-irrigation-repair/                 /irrigation.html             301
+/san-diego-irrigation-repair                  /irrigation.html             301
+/mm/                                          /                            301
+/mm                                           /                            301
+/san-diego-softscape/                         /landscape-design.html       301
+/san-diego-softscape                          /landscape-design.html       301
+/reviews/                                     /gallery.html                301
+/reviews                                      /gallery.html                301
+/san-diego-outdoor-drainage-contractor/       /irrigation.html             301
+/san-diego-outdoor-drainage-contractor        /irrigation.html             301
+/san-diego-lighting-design/                   /landscape-lighting.html     301
+/san-diego-lighting-design                    /landscape-lighting.html     301
+/san-diego-patio-building-contractor/         /patios-decks.html           301
+/san-diego-patio-building-contractor          /patios-decks.html           301
+/san-diego-commercial-building-landscape/     /commercial-planting.html    301
+/san-diego-commercial-building-landscape      /commercial-planting.html    301
+/san-diego-custom-landscape-installs/         /new-construction.html       301
+/san-diego-custom-landscape-installs          /new-construction.html       301
+/san-diego-fire-resistant-planting/           /landscape-design.html       301
+/san-diego-fire-resistant-planting            /landscape-design.html       301
+/san-diego-standing-seam-metal-roofer/        /                            301
+/san-diego-standing-seam-metal-roofer         /                            301
+/privacy-policy/                              /privacy-policy.html         301
+
+# === WORDPRESS CRUFT WILDCARDS ===
+/wp-content/*                                 /                            301
+/wp-admin/*                                   /                            301
+/wp-login.php                                 /                            301
+/wp-json/*                                    /                            301
+/feed/                                        /                            301
+/feed                                         /                            301
+/comments/feed/                               /                            301
+/category/*                                   /                            301
+/tag/*                                        /                            301
+/author/*                                     /                            301
+/sitemap_index.xml                            /sitemap.xml                 301
+/page-sitemap.xml                             /sitemap.xml                 301
+/post-sitemap.xml                             /sitemap.xml                 301
+/attachment-sitemap.xml                       /sitemap.xml                 301
+
+# === DUPLICATE URL CONSOLIDATION ===
+# Force flag (301!) so these fire even though Netlify would otherwise
+# serve /foo from /foo.html as a fallback. Standardizes on .html canonical form.
+/about                                        /about.html                                    301!
+/contact                                      /contact.html                                  301!
+/gallery                                      /gallery.html                                  301!
+/landscape-design                             /landscape-design.html                         301!
+/new-construction                             /new-construction.html                         301!
+/hardscape                                    /hardscape.html                                301!
+/water-features                               /water-features.html                           301!
+/bbq-islands                                  /bbq-islands.html                              301!
+/patios-decks                                 /patios-decks.html                             301!
+/pavers                                       /pavers.html                                   301!
+/landscape-lighting                           /landscape-lighting.html                       301!
+/commercial-planting                          /commercial-planting.html                      301!
+/irrigation                                   /irrigation.html                               301!
+/artificial-grass                             /artificial-grass.html                         301!
+/landscape-renovation                         /landscape-renovation.html                     301!
+/service-areas                                /service-areas.html                            301!
+/landscape-tips                               /landscape-tips.html                           301!
+/privacy-policy                               /privacy-policy.html                           301!
+/terms-of-service                             /terms-of-service.html                         301!
+
+/areas/la-jolla                               /areas/la-jolla.html                           301!
+/areas/encinitas                              /areas/encinitas.html                          301!
+/areas/carlsbad                               /areas/carlsbad.html                           301!
+/areas/del-mar                                /areas/del-mar.html                            301!
+/areas/rancho-santa-fe                        /areas/rancho-santa-fe.html                    301!
+/areas/carmel-valley                          /areas/carmel-valley.html                      301!
+/areas/solana-beach                           /areas/solana-beach.html                       301!
+/areas/cardiff-by-the-sea                     /areas/cardiff-by-the-sea.html                 301!

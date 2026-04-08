@@ -164,25 +164,6 @@
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
-    <url>
-        <loc>https://arcadianlandscape.com/blog/drought-tolerant-landscaping.html</loc>
-        <lastmod>2026-03-31</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://arcadianlandscape.com/blog/landscaping-cost-guide.html</loc>
-        <lastmod>2026-03-31</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
-        <loc>https://arcadianlandscape.com/blog/best-plants-san-diego.html</loc>
-        <lastmod>2026-03-31</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-
     <!-- Legal Pages -->
     <url>
         <loc>https://arcadianlandscape.com/privacy-policy.html</loc>
