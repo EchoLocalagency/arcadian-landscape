@@ -1,0 +1,275 @@
+COLD CALL LIST -- SoCal Landscaping / Hardscaping / Lawn Care
+Generated: 2026-04-13
+Target: Small operators with weak web presence for Echo Local SEO pitch
+===========================================================================
+
+--- AREA 1: EAST SAN DIEGO COUNTY (El Cajon, Santee, Lakeside, Ramona) ---
+
+LEAD #1: Stillson Landscaping
+Owner: Unknown (family-owned)
+Phone: (619) 727-8414
+Email: (not found)
+Address: 9354 Creekside Ct, Santee, CA 92071
+Google Reviews: ~45 (4.7 stars on Birdeye, 11 on Yelp)
+Website: stillsonlandscaping.com
+Website Quality: Free Wix site -- template-heavy, minimal visible content, basic landing page
+Services: Sod, irrigation, drip systems, aeration, cleanups, planting, decorative rock, mulch
+Service Area: Santee, La Mesa, El Cajon, Lakeside, Ramona (East County SD)
+NOTES: Perfect fit. Family shop on a free Wix site. Under 50 reviews. Serves all target East County cities.
+
+LEAD #2: True Lawn Care Inc.
+Owner: Ron Andrews (President)
+Phone: (619) 443-2328
+Email: (not found)
+Address: 12030 Short St, Lakeside, CA 92040
+Google Reviews: ~20-30 estimated (5.0 on Angi)
+Website: truelawncareinc.com
+Website Quality: WordPress/Avada -- actually decent site with blog and service pages. Not a top prospect on web quality alone.
+Services: Landscape maintenance, lawn care, irrigation, residential/commercial/HOA
+Service Area: Lakeside and San Diego County
+NOTES: 28 years in business. Site is above average but could still benefit from local SEO. Good for a softer pitch.
+
+LEAD #3: Locks Lawn Care and Landscaping
+Owner: Unknown
+Phone: (619) 971-5496
+Email: (not found)
+Address: Lakeside, CA 92040
+Google Reviews: ~15-25 estimated (4.9 on HomeAdvisor)
+Website: (no dedicated website found -- listed on directories only)
+Website Quality: NO WEBSITE. Only directory listings (Yelp, Nextdoor, HomeAdvisor).
+Services: Landscaping, sprinkler maintenance, new installs, commercial and residential
+Service Area: Lakeside, East County SD
+NOTES: Strong prospect -- no website at all. Operating since 2009. Relies entirely on directories.
+
+LEAD #4: Sunset Solutions Landscaping
+Owner: Unknown
+Phone: (619) 456-0669
+Email: (not found)
+Address: 13277 Lakeview Granada Dr, Lakeside, CA
+Google Reviews: Very few (no reviews on Manta or Angi)
+Website: sunsetsolutionslandscaping.net
+Website Quality: WEBSITE DOWN -- DNS not resolving. Domain appears dead/expired.
+Services: Landscape maintenance, residential and commercial lawn care
+Service Area: Greater San Diego area
+NOTES: Top prospect -- dead website, almost no reviews. License #1021403. Established 2013 but invisible online.
+
+LEAD #5: Kniffing's Landscape + Maintenance
+Owner: Unknown (family business since 1980)
+Phone: (619) 812-5611
+Email: (not found)
+Address: 14940 Oak Creek Rd, El Cajon, CA 92021
+Google Reviews: ~12 on Yelp (likely 30-50 on Google)
+Website: kniffingslandscape.com
+Website Quality: Hibu/DynaMAX proprietary CMS -- professional but bloated code, heavy platform dependency, limited SEO flexibility
+Services: Landscaping, hardscaping, irrigation, planting, nursery
+Service Area: San Diego County, based in El Cajon
+NOTES: Established since 1980 with nursery. Site is on Hibu (locked platform). Could pitch migration + SEO.
+
+
+--- AREA 2: NORTH SD COUNTY (Fallbrook, Valley Center, Bonsall) ---
+
+LEAD #6: Queretaro Tree Service
+Owner: Miguel Rodriguez (& Marisol Rodriguez)
+Phone: (760) 650-6994
+Email: (not found)
+Address: 755 Porter St, Fallbrook, CA 92028
+Google Reviews: ~15-25 estimated (positive across platforms)
+Website: queretarotreeserviceca.com
+Website Quality: WordPress/Divi -- decent setup with schema markup and analytics, but content depth unclear. Serviceable but not strong.
+Services: Tree trimming, removal, pruning, stump grinding
+Service Area: Fallbrook and surrounding areas
+NOTES: In business since 2016, 13+ years crew experience. Owner-operator. Could benefit from more content + local pages.
+
+LEAD #7: NG Landscaping and Tree Service
+Owner: Nick (last name Gonzalez per Nextdoor)
+Phone: (760) 655-8933
+Email: (not found)
+Address: Bonsall, CA 92003
+Google Reviews: ~34 (on Birdeye)
+Website: ngtreeservice.com
+Website Quality: Lead-gen landing page -- shallow content, aggressive popups, no real substance. Looks like a purchased template site.
+Services: Yard maintenance, tree trimming, trash haul, chipping, cleanups, irrigation, landscape redesign
+Service Area: Bonsall, North SD County
+NOTES: Good prospect. Unlicensed contractor per HomeAdvisor. Mediocre web presence. Owner Nick is responsive -- could pitch proper site + SEO.
+
+LEAD #8: Gonzalez Landscape & Tree Service (Bonsall location)
+Owner: Tomas
+Phone: (760) 420-5445
+Email: (not found)
+Address: Bonsall, CA 92003
+Google Reviews: ~15 on Yelp
+Website: (no dedicated website for Bonsall location)
+Website Quality: NO WEBSITE for this location. Only Yelp listing.
+Services: Tree trimming, stump grinding, layout design, landscaping
+Service Area: Bonsall, North SD County
+NOTES: 30 years experience. No website. Responsive to leads. Great cold call target.
+
+LEAD #9: Juan Tree Services & Landscaping
+Owner: Juan
+Phone: (760) 586-5462
+Email: (not found)
+Address: Oceanside/Valley Center area
+Google Reviews: ~10-20 estimated (4.9 rating)
+Website: juantreeserviceslandscaping.com
+Website Quality: Astro/Firebase -- modern framework but has broken placeholder images throughout gallery. No blog. Image rendering issues.
+Services: Tree service, landscaping, maintenance
+Service Area: Oceanside, Valley Center, Solana Beach, Camp Pendleton area
+NOTES: Good prospect. Site looks broken with placeholder images. Small crew, owner-operator.
+
+LEAD #10: Ramirez Landscape and Tree Service
+Owner: Unknown
+Phone: (760) 717-3550
+Email: (not found)
+Address: 2633 S Mission Rd, Fallbrook, CA 92028
+Google Reviews: Mixed reviews (BBB A+ rated, accredited since 2005)
+Website: ramirezlandscape.com / ramirezlandscapetreesca.com
+Website Quality: WordPress/Divi -- professional framework but TWO different domains is confusing. Licensed C27 & D49.
+Services: Landscaping, tree trimming/removal, irrigation, landscape design
+Service Area: Fallbrook and 60-mile radius
+NOTES: Licensed, BBB accredited. Two competing domains could hurt SEO. Could pitch consolidation + local SEO.
+
+
+--- AREA 3: INLAND EMPIRE (Moreno Valley, Beaumont, Banning, San Jacinto) ---
+
+LEAD #11: Everlasting Green Landscape
+Owner: Victor Gonzalez
+Phone: (951) 203-2674
+Email: (not found)
+Address: 12738 Valley Meadows Dr, Moreno Valley, CA 92553
+Google Reviews: ~15-25 estimated (positive reviews)
+Website: everlastinggreenlandscape.com
+Website Quality: WordPress/Beacon theme -- functional but no blog, schema markup incorrectly labels business as "Plumber" instead of landscaper. SEO errors.
+Services: Lawn maintenance, hardscapes, irrigation, tree services
+Service Area: Moreno Valley, Inland Empire
+NOTES: Strong prospect. Schema markup error is a great talking point. Decade of experience. Owner-operator.
+
+LEAD #12: Palacios Landscaping LLC
+Owner: Unknown
+Phone: (951) 641-7885 / (951) 480-6919
+Email: contact@palacioslandscapingllc.com
+Address: Menifee/San Jacinto area
+Google Reviews: ~10-20 estimated
+Website: palacioslandscapingllc.com
+Website Quality: Duda platform -- professional foundation but thin content, no blog, no testimonials section despite having a reviews nav link. Instagram feed as primary content.
+Services: Sod, sprinklers, irrigation, artificial grass, tree service, mowing, fertilizing, concrete, maintenance
+Service Area: Menifee, Murrieta, French Valley, Winchester, Beaumont, Hemet, San Jacinto
+NOTES: 20+ years experience. Covers all target Inland Empire cities. Thin content is a great SEO pitch angle.
+
+LEAD #13: Tesoro Landscaping
+Owner: Unknown
+Phone: (951) 599-3484
+Email: (not found)
+Address: 913 South Grand Avenue, San Jacinto, CA 92582
+Google Reviews: Very few (minimal online presence)
+Website: NO WEBSITE found -- Yellow Pages listing only
+Website Quality: NO WEBSITE. Only appears in directory listings.
+Services: Tree removal/trimming, sod installation, yard cleanups, lawn service (residential & commercial)
+Service Area: San Jacinto, Banning area
+NOTES: Top prospect. No website, minimal reviews, licensed and insured. Perfect Echo Local candidate.
+
+LEAD #14: Calpez Lawn Care
+Owner: Unknown (contact email suggests personal: cluis2262@gmail.com)
+Phone: (951) 345-3987
+Email: cluis2262@gmail.com
+Address: San Jacinto, CA area
+Google Reviews: ~5-15 estimated
+Website: calpezlawncare.com
+Website Quality: BrandRepUp or similar template platform -- functional but minimal content, no blog, broken sentence in About section. Basic lead-gen page.
+Services: Tree trimming, landscape maintenance, lawn care
+Service Area: San Jacinto, Hemet area
+NOTES: Good prospect. Template website with broken copy. Gmail as business email. Small operation.
+
+LEAD #15: Pro Scape Landscaping Inc.
+Owner: Cornelio (first name from reviews)
+Phone: (951) 443-8834
+Email: (not found)
+Address: Murrieta/Moreno Valley area
+Google Reviews: ~20-40 estimated
+Website: proscapelandscapingca.com
+Website Quality: Proprietary CMS -- professional appearance, service pages and testimonials, but no blog. Uncommon platform limits flexibility.
+Services: Lawn mowing, fertilization, weed control, sod, sprinklers, tree trimming/pruning/removal, hardscaping
+Service Area: Moreno Valley, Riverside County, San Bernardino County
+NOTES: Family-operated since 2011. No blog, proprietary platform. Could pitch WordPress migration + content strategy.
+
+
+--- AREA 4: NORTH ORANGE COUNTY (Yorba Linda, Placentia, Brea, Fullerton) ---
+
+LEAD #16: Sandstone Construction
+Owner: Kyle Hanock
+Phone: (714) 271-4585
+Email: (not found)
+Address: Yorba Linda, CA 92886
+Google Reviews: ~17 on Yelp (4.5 stars), 5.0 on Angi
+Website: sandstoneoc.com
+Website Quality: WordPress/Breakdance -- actually well-optimized with schema, GTM, financing integration. Above average but still no blog.
+Services: Hardscaping -- stone walls, fireplaces, patios, walkways, retaining walls, outdoor kitchens
+Service Area: Yorba Linda, Anaheim, Santa Ana, Brea, Fullerton, Irvine, North OC
+NOTES: 12 years experience. Site is decent but no blog/content strategy. Could pitch content marketing + local pages.
+
+LEAD #17: DC Landscape Design and Construction
+Owner: David Choi
+Phone: (714) 909-1177
+Email: (not found)
+Address: Anaheim, CA 92801
+Google Reviews: ~23 on Yelp, 5.0 on Houzz
+Website: dc-landscape.com
+Website Quality: Houzz Pro hosted site -- strong visual portfolio, "Best of Houzz" badges, but NO blog, no deep content. Platform is Houzz-dependent.
+Services: Custom landscapes, hardscapes, pavers, water features, fire pits, outdoor kitchens, xeriscape, lighting
+Service Area: Orange County, Los Angeles County (Brea, Fullerton, Placentia, Yorba Linda)
+NOTES: Established 2005. Site hosted on Houzz platform -- locked in. Could pitch independent site + SEO ownership.
+
+LEAD #18: Influence Outdoors Design & Build
+Owner: Gerard McLaughlin
+Phone: (not found in search -- check Yelp listing)
+Email: (not found)
+Address: 700 N Resh St, Anaheim, CA
+Google Reviews: ~10-20 estimated (4.8 overall)
+Website: influenceoutdoors.com
+Website Quality: Squarespace -- professional visuals but minimal written content, no blog, no case studies. Pretty but thin.
+Services: 3D rendering, fire pits, hardscaping, landscape design, pool landscaping, outdoor kitchens, lighting, masonry
+Service Area: Anaheim, Brea, Fullerton, Placentia, Yorba Linda, all of OC
+NOTES: 30 years combined experience. Squarespace site looks good but zero SEO content. Great pitch for content + local pages.
+
+LEAD #19: Fullerton Landscapers
+Owner: Unknown
+Phone: (657) 441-0348
+Email: (not found)
+Address: Fullerton, CA area
+Google Reviews: Unknown
+Website: fullertonlandscapers.com
+Website Quality: WordPress/Astra -- solid technical foundation with schema markup, but content depth is limited to service offerings. No educational content.
+Services: Custom patios, paver driveways, landscaping
+Service Area: Fullerton, Anaheim, Brea, Placentia, Garden Grove
+NOTES: Could be a lead-gen site rather than an actual local company. Verify on call. If real operator, good prospect for content build-out.
+
+
+===========================================================================
+SUMMARY
+===========================================================================
+Total leads: 19
+By area:
+  East SD County (El Cajon/Santee/Lakeside/Ramona): 5 leads
+  North SD County (Fallbrook/Valley Center/Bonsall): 5 leads
+  Inland Empire (Moreno Valley/Beaumont/Banning/San Jacinto): 5 leads
+  North Orange County (Yorba Linda/Placentia/Brea/Fullerton): 4 leads
+
+TOP TIER PROSPECTS (worst web presence = best opportunity):
+1. Locks Lawn Care (#3) -- NO website, Lakeside
+2. Sunset Solutions (#4) -- DEAD website, Lakeside
+3. Tesoro Landscaping (#13) -- NO website, San Jacinto
+4. Gonzalez Landscape (#8) -- NO website, Bonsall
+5. Calpez Lawn Care (#14) -- template junk site, San Jacinto
+6. NG Landscaping (#7) -- lead-gen landing page, Bonsall
+7. Stillson Landscaping (#1) -- free Wix, Santee
+8. Everlasting Green (#11) -- broken schema markup, Moreno Valley
+
+SECOND TIER (decent site but missing SEO/content):
+9. Juan Tree Services (#9) -- broken images, Valley Center
+10. Palacios Landscaping (#12) -- thin content, San Jacinto
+11. Influence Outdoors (#18) -- pretty but zero SEO, Anaheim
+12. DC Landscape (#17) -- Houzz-hosted, no ownership, Anaheim
+13. Pro Scape (#15) -- proprietary CMS, no blog, Moreno Valley
+
+WARM BUT HARDER SELL (better sites):
+14. Queretaro Tree (#6), Ramirez Landscape (#10), Sandstone (#16),
+    True Lawn Care (#2), Kniffing's (#5), Fullerton Landscapers (#19)
