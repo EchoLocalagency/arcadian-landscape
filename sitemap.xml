@@ -178,4 +178,12 @@
         <priority>0.3</priority>
     </url>
 
+
+    <!-- Blog: san-diego-irrigation-repair-pressure-test -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/san-diego-irrigation-repair-pressure-test.html</loc>
+        <lastmod>2026-04-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
