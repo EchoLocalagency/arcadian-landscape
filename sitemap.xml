@@ -194,4 +194,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: vet-san-diego-landscape-contractor -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/vet-san-diego-landscape-contractor.html</loc>
+        <lastmod>2026-04-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
