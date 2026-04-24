@@ -210,4 +210,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: fairbanks-ranch -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/fairbanks-ranch.html</loc>
+        <lastmod>2026-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
