@@ -202,4 +202,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: when-we-turn-down-turf-jobs-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/when-we-turn-down-turf-jobs-san-diego.html</loc>
+        <lastmod>2026-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
