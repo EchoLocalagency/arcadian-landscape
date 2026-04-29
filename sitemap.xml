@@ -218,4 +218,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: san-diego-backyard-design-fails-year-two -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/san-diego-backyard-design-fails-year-two.html</loc>
+        <lastmod>2026-04-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
