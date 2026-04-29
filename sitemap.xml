@@ -226,4 +226,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: san-diego-bbq-island-installation-mistakes -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/san-diego-bbq-island-installation-mistakes.html</loc>
+        <lastmod>2026-04-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
