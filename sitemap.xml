@@ -242,4 +242,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: point-loma -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/point-loma.html</loc>
+        <lastmod>2026-05-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
