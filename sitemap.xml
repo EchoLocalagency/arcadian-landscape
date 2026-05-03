@@ -250,4 +250,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: redfin-questions-carlsbad-landscape-contractor -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/redfin-questions-carlsbad-landscape-contractor.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
