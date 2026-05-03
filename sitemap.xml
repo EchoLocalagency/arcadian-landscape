@@ -258,4 +258,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: pool-landscape-ideas-trendir-san-diego-review -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/pool-landscape-ideas-trendir-san-diego-review.html</loc>
+        <lastmod>2026-05-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
