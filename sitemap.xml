@@ -282,4 +282,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: coronado -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/coronado.html</loc>
+        <lastmod>2026-05-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
