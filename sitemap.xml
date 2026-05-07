@@ -290,4 +290,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: mission-hills -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/mission-hills.html</loc>
+        <lastmod>2026-05-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
