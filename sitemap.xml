@@ -298,4 +298,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: trendir-desert-backyard-ideas-san-diego-review -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/trendir-desert-backyard-ideas-san-diego-review.html</loc>
+        <lastmod>2026-05-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
