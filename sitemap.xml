@@ -306,4 +306,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: landscaper-hourly-rate-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/landscaper-hourly-rate-san-diego.html</loc>
+        <lastmod>2026-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
