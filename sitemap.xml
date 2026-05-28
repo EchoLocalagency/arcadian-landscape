@@ -338,4 +338,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: san-diego-backyard-builds-spring-2026 -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/san-diego-backyard-builds-spring-2026.html</loc>
+        <lastmod>2026-05-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
