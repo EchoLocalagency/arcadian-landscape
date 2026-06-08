@@ -378,4 +378,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: 4s-ranch -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/4s-ranch.html</loc>
+        <lastmod>2026-06-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
