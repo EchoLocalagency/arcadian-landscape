@@ -386,4 +386,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: la-costa-carlsbad -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/la-costa-carlsbad.html</loc>
+        <lastmod>2026-06-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
