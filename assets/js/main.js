@@ -309,8 +309,66 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
+        // SPAM FILTER — kills SEO/web-design solicitation submissions
+        // Bots get fake success; real users with these phrases would be a million-to-one false positive
+        const SPAM_PATTERNS = [
+            // SEO/marketing agency pitches
+            /\bseo\s+(services?|expert|agency|company|specialist|consultant|professional|firm)\b/i,
+            /\b(white[\s-]?label|guest[\s-]?post|guest[\s-]?blogging|link[\s-]?building|backlinks?)\b/i,
+            /\b(domain\s+authority|da\s+score|page\s+rank|first\s+page\s+of\s+google)\b/i,
+            /\b(rank\s+(?:your|higher)|improve\s+your\s+ranking|increase\s+your\s+(?:traffic|leads|sales))\b/i,
+            /\b(digital\s+marketing\s+(?:agency|services?|expert|consultant)|outreach\s+(?:services?|campaign))\b/i,
+            /\b(lead\s+generation\s+(?:services?|company|agency)|high[\s-]?quality\s+leads)\b/i,
+            // Web design / web dev pitches
+            /\b(web\s+(?:design|development)\s+(?:services?|company|agency|expert)|wordpress\s+(?:developer|expert))\b/i,
+            /\b(mobile\s+app\s+(?:development|developer)|ui\/ux\s+(?:designer|services?))\b/i,
+            // Opening pitches
+            /\b(i\s+came\s+across\s+your|i\s+noticed\s+your|i\s+was\s+looking\s+at\s+your|i\s+stumbled\s+upon)\b/i,
+            /\b(i\s+(?:am\s+)?reaching\s+out|we\s+(?:are|came\s+across)\s+your\s+website)\b/i,
+            /\b(your\s+website['']?s?\s+(?:seo|design|ranking|traffic|conversion))\b/i,
+            // Crypto / wallet / NFT spam
+            /\b(crypto|bitcoin|ethereum|nft|wallet\s+address|metamask|trustwallet)\b/i,
+            // Generic loan/payday spam
+            /\b(payday\s+loan|business\s+loan\s+(?:offer|approval)|merchant\s+cash\s+advance)\b/i,
+        ];
+
+        function isSpam(form) {
+            const fieldsToCheck = ['name', 'message', 'subject', 'email', 'company'];
+            const combined = fieldsToCheck
+                .map(n => (form.querySelector('[name="' + n + '"]') || {}).value || '')
+                .join(' ');
+            if (!combined.trim()) return false;
+            // Pattern match
+            for (const re of SPAM_PATTERNS) {
+                if (re.test(combined)) return true;
+            }
+            // Excessive URLs in message body (real customers rarely include >1 URL)
+            const message = (form.querySelector('[name="message"]') || {}).value || '';
+            const urlCount = (message.match(/https?:\/\//gi) || []).length;
+            if (urlCount >= 2) return true;
+            // Name field with embedded URL — classic bot signature
+            const name = (form.querySelector('[name="name"]') || {}).value || '';
+            if (/https?:\/\//i.test(name)) return true;
+            return false;
+        }
+
         contactForm.addEventListener('submit', (e) => {
             if (isSubmitting) { e.preventDefault(); return; }
+
+            // Spam pre-check — fake success so bots move on, log silently
+            if (isSpam(contactForm)) {
+                e.preventDefault();
+                try { console.warn('[spam-filter] submission blocked'); } catch (_) {}
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Sending...';
+                }
+                // Mimic real success after a short delay so the bot moves on
+                setTimeout(() => {
+                    window.location.href = '/';
+                }, 1200);
+                return;
+            }
 
             let isValid = true;
             const requiredFields = contactForm.querySelectorAll('[required]');
