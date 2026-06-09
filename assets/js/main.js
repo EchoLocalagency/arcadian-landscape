@@ -309,27 +309,41 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        // SPAM FILTER — kills SEO/web-design solicitation submissions
-        // Bots get fake success; real users with these phrases would be a million-to-one false positive
+        // SPAM FILTER — kills SEO/web-design solicitation + review-buying submissions
+        // Patterns derived from real Arcadian/Mr Green spam submissions
         const SPAM_PATTERNS = [
             // SEO/marketing agency pitches
             /\bseo\s+(services?|expert|agency|company|specialist|consultant|professional|firm)\b/i,
             /\b(white[\s-]?label|guest[\s-]?post|guest[\s-]?blogging|link[\s-]?building|backlinks?)\b/i,
             /\b(domain\s+authority|da\s+score|page\s+rank|first\s+page\s+of\s+google)\b/i,
-            /\b(rank\s+(?:your|higher)|improve\s+your\s+ranking|increase\s+your\s+(?:traffic|leads|sales))\b/i,
+            /\b(rank\s+(?:your|higher)|improve\s+your\s+ranking|increase\s+your\s+(?:traffic|leads|sales|ratings?))\b/i,
+            /\b(optimize\s+(?:its|your|the)\s+ranking|optimize\s+(?:its|your|the)\s+seo)\b/i,
             /\b(digital\s+marketing\s+(?:agency|services?|expert|consultant)|outreach\s+(?:services?|campaign))\b/i,
             /\b(lead\s+generation\s+(?:services?|company|agency)|high[\s-]?quality\s+leads)\b/i,
+            /\b(promote\s+your\s+(?:business|brand|website|company)|grow\s+your\s+(?:business|traffic|reach))\b/i,
             // Web design / web dev pitches
             /\b(web\s+(?:design|development)\s+(?:services?|company|agency|expert)|wordpress\s+(?:developer|expert))\b/i,
             /\b(mobile\s+app\s+(?:development|developer)|ui\/ux\s+(?:designer|services?))\b/i,
-            // Opening pitches
-            /\b(i\s+came\s+across\s+your|i\s+noticed\s+your|i\s+was\s+looking\s+at\s+your|i\s+stumbled\s+upon)\b/i,
-            /\b(i\s+(?:am\s+)?reaching\s+out|we\s+(?:are|came\s+across)\s+your\s+website)\b/i,
-            /\b(your\s+website['']?s?\s+(?:seo|design|ranking|traffic|conversion))\b/i,
+            /\b(audit\s+report|design[\s-]related\s+(?:issues?|problems?|errors?)|website['']?s?\s+(?:performance|design|ranking|seo|conversion|traffic))\b/i,
+            /\b(proposal\s+(?:and|&)\s+pricing|detailed\s+(?:audit|proposal|report))\b/i,
+            /\b(send\s+(?:you\s+)?a?\s*screenshot|send\s+(?:you\s+)?a?\s*proposal)\b/i,
+            // Review-buying spam (real Bangladeshi pattern hit Arcadian 2026-06-09)
+            /\b(google|yelp|facebook|trustpilot|trustpaylot|bbb|houzz|tripadvisor|sitejabber|bark|qualibox|buildzoom|eldo|poch)\s+reviews?\b/i,
+            /\b(negative\s+review\s+removal|review\s+removal\s+service|fake\s+reviews?)\b/i,
+            /\b(high[\s-]?resolution\s+reviews?|verified\s+reviews?|5[\s-]?star\s+reviews?)\b/i,
+            // Cold-email openers
+            /\b(i\s+came\s+across\s+your|i\s+noticed\s+(?:your|a\s+few)|i\s+was\s+looking\s+at\s+your|i\s+stumbled\s+upon)\b/i,
+            /\b(i\s+(?:am\s+)?reaching\s+out|we\s+(?:are|came\s+across)\s+your\s+website|hello\s+business\s+owner)\b/i,
+            /\b(i\s+am\s+here\s+to\s+(?:promote|help|offer|introduce))\b/i,
+            // Off-platform contact requests
+            /\b(whats?app|telegram|skype|wechat|viber)[\s:.+]+(\+?\d|@)/i,
+            /\b(\+?880|\+?91|\+?92|\+?234)[\s\-.]\d/,  // BD/IN/PK/NG country codes
             // Crypto / wallet / NFT spam
             /\b(crypto|bitcoin|ethereum|nft|wallet\s+address|metamask|trustwallet)\b/i,
-            // Generic loan/payday spam
+            // Loan / cash advance spam
             /\b(payday\s+loan|business\s+loan\s+(?:offer|approval)|merchant\s+cash\s+advance)\b/i,
+            // Bot signature: bot greeting using the literal site domain
+            /\bhello\s+\S+\.com\b/i,
         ];
 
         function isSpam(form) {
@@ -346,9 +360,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const message = (form.querySelector('[name="message"]') || {}).value || '';
             const urlCount = (message.match(/https?:\/\//gi) || []).length;
             if (urlCount >= 2) return true;
-            // Name field with embedded URL — classic bot signature
+            // URL embedded in name field — classic bot signature
             const name = (form.querySelector('[name="name"]') || {}).value || '';
             if (/https?:\/\//i.test(name)) return true;
+            // Name with marketing suffix ("Mkt", "SEO", "Digital", etc) — bot signature
+            if (/\b(mkt|seo|digital|agency|marketing|outreach)\b/i.test(name) && name.length < 30) return true;
+            // Palindrome / repeating-digit phone numbers (e.g. 2102102101)
+            const phoneField = form.querySelector('[name="phone"]');
+            if (phoneField && phoneField.value) {
+                const digits = phoneField.value.replace(/\D/g, '');
+                if (digits.length >= 10 && /^(\d{3})\1\1/.test(digits)) return true;
+            }
+            // Emoji density check — real customer messages have 0 emojis
+            const emojiCount = (message.match(/[\u{1F300}-\u{1FAFF}☀-➿\u{1F900}-\u{1F9FF}]/gu) || []).length;
+            if (emojiCount >= 3) return true;
             return false;
         }
 
