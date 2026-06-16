@@ -410,4 +410,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: what-commercial-landscaping-covers-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/what-commercial-landscaping-covers-san-diego.html</loc>
+        <lastmod>2026-06-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
