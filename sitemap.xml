@@ -426,4 +426,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: leucadia-encinitas -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/leucadia-encinitas.html</loc>
+        <lastmod>2026-06-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
