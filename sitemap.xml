@@ -458,4 +458,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: landscaping-aviara-carlsbad -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/landscaping-aviara-carlsbad.html</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
