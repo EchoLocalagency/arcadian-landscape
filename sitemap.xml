@@ -442,4 +442,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: pavers-vs-concrete-patio-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/pavers-vs-concrete-patio-san-diego.html</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
