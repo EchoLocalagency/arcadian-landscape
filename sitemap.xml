@@ -450,4 +450,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: outdoor-kitchen-cost-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/outdoor-kitchen-cost-san-diego.html</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
