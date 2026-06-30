@@ -474,4 +474,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: free-landscape-design-program-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/free-landscape-design-program-san-diego.html</loc>
+        <lastmod>2026-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
