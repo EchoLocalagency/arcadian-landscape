@@ -482,4 +482,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: timber-walls-stone-patios-outdoor-living-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/timber-walls-stone-patios-outdoor-living-san-diego.html</loc>
+        <lastmod>2026-07-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
