@@ -498,4 +498,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: bressi-ranch-carlsbad -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/bressi-ranch-carlsbad.html</loc>
+        <lastmod>2026-07-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
