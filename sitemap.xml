@@ -506,4 +506,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: carmel-valley-backyard-remodel-cost-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/carmel-valley-backyard-remodel-cost-san-diego.html</loc>
+        <lastmod>2026-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
