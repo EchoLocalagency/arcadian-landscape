@@ -514,4 +514,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: muirlands-la-jolla -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/muirlands-la-jolla.html</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
