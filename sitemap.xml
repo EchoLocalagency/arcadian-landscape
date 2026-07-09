@@ -522,4 +522,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: san-diego-landscape-lighting-install-cost -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/san-diego-landscape-lighting-install-cost.html</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
