@@ -530,4 +530,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Location: santaluz-landscaping -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/santaluz-landscaping.html</loc>
+        <lastmod>2026-07-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
