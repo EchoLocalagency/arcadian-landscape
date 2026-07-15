@@ -546,4 +546,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: how-san-diego-landscape-plan-comes-together -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/how-san-diego-landscape-plan-comes-together.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
