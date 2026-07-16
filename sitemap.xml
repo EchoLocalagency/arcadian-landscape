@@ -562,4 +562,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Location: torrey-pines -->
+    <url>
+        <loc>https://arcadianlandscape.com/areas/torrey-pines.html</loc>
+        <lastmod>2026-07-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
