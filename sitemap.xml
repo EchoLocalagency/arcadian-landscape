@@ -578,4 +578,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: backyard-water-feature-cost-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/backyard-water-feature-cost-san-diego.html</loc>
+        <lastmod>2026-07-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
