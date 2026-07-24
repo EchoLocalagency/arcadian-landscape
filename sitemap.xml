@@ -610,4 +610,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: nfl-grass-fields-san-diego-lawn-root-zone -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/nfl-grass-fields-san-diego-lawn-root-zone.html</loc>
+        <lastmod>2026-07-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
