@@ -634,4 +634,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: norway-artificial-turf-vs-san-diego-backyard-turf -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/norway-artificial-turf-vs-san-diego-backyard-turf.html</loc>
+        <lastmod>2026-07-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
