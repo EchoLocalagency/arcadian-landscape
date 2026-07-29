@@ -626,4 +626,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+
+    <!-- Blog: landscape-maintenance-vs-design-build-san-diego -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/landscape-maintenance-vs-design-build-san-diego.html</loc>
+        <lastmod>2026-07-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
