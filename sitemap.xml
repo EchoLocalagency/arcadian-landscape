@@ -658,4 +658,12 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Blog: north-county-landscape-design-cost -->
+    <url>
+        <loc>https://arcadianlandscape.com/blog/north-county-landscape-design-cost.html</loc>
+        <lastmod>2026-08-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
